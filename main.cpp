@@ -5,12 +5,10 @@
 using namespace std;
 int main(){
     
-    string teste1 = "[a+b]*[c-d)";
-    string teste2 = "(a+b)*[c-d]";
-    string teste3 = ")";
-
+    string entrada;
+    cin>> entrada;
     CheckBalance cb;
-    cb.isBalanced(teste2) ? cout<<"Balanceado\n" : cout<<"Nao balanceado\n";
+    cb.isBalanced(entrada) ? cout<<"Balanceado\n" : cout<<"Nao balanceado\n";
 
 
     
